@@ -1,0 +1,217 @@
+.bordure
+{
+    border-left: none;
+    border-right: none;
+    border-color: yellow;
+    background-color: black;
+    width: 98.1%;
+    display: flex;
+    margin: 0;
+    padding-bottom: 0.3%;
+}
+
+#logo
+{
+    height: 10%;
+}
+
+.deco
+{
+text-decoration: none;
+margin-left: 13%;
+margin-top: 2%;
+color: white;
+font-size: 150%;
+font-weight: bold;
+font-style: oblique;
+animation: my-animation 2s ease-in;
+}
+
+.bt
+{
+background-color: #F7DC6F;
+margin-left: 180%;
+margin-top: 20%;
+border-radius: 7px;
+width: 150%;
+height: 60%;
+color: black;
+font-size: 80%;
+font-weight: bold;
+font-style: oblique;
+animation: my-animation 2s ease-in;
+}
+
+.bt:hover
+{
+  background-color: yellow;
+}
+
+.imgd
+{
+ animation: my-animation 2s ease-in;  
+}
+
+.deco:hover
+{
+   text-decoration:underline ;
+   color: yellow;
+}
+
+@keyframes my-animation
+{
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+}
+
+body
+{
+background-image: url("couvertureAcceuil.jpg") ;
+background-repeat:repeat;
+background-size: 100%;
+margin: 0;
+padding: 0;
+}
+
+.acceuil
+{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.M-entrer
+{
+    color: white;
+    margin-left: 15%;
+    margin-top: 15%;
+    animation: my-animation 2s ease-in;
+}
+
+
+
+.motivation
+{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 200%;
+font-weight: bold;
+font-style: italic;
+background-color: black;
+color: rgb(241, 241, 118) ;
+animation: route 2s ease-in-out infinite;
+margin-top: 25%;
+margin-right: 10%;
+
+}
+
+@keyframes route
+{
+    0%{
+        transform :rotate(0deg);
+    }
+
+    50%{
+        transform :rotate(6deg);
+    }
+
+    100%{
+        transform :rotate(0deg);
+    }
+}
+
+.ul1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 145, 0);
+    font-weight: bold;
+font-style: italic;
+animation: my-animation 2s ease-in;
+}
+
+.bn
+{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+font-style:italic;
+color: red;
+background-color: yellow;
+animation: my-animation 2s ease-in;
+}
+
+.titre
+{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+font-style:italic;
+color: black;
+background-color: yellow;
+text-align: center;
+}
+
+.champ
+{
+    display: flex;
+    margin-top: 70px;
+}
+
+.instagram
+{
+    width: 6%;  
+    margin-left: 20%;
+    animation-name: bouger; 
+    animation-duration: 1s; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
+}
+
+.maps
+{
+    width: 6%;
+    animation-name: bouger; 
+    animation-duration: 1s; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
+}
+
+@keyframes bouger {
+    from {
+      transform: translateX(0); 
+    }
+    to {
+      transform: translateX(10px); 
+    }
+  }
+ 
+  
+  .reseaux
+  {
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+  
+  #cmpl
+  {
+    color: #F7DC6F;
+   width: 2%;
+   background-color: black;
+   border: none;
+   font-size: 20px;
+   font-weight: bold;
+   font-style: italic;
+   animation: my-animation 2s ease-in;
+  }
+
+ #Im-entrer {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #Im-entrer:hover {
+    transform: scale(1.2);
+  }
+  

@@ -1,0 +1,99 @@
+body
+{
+    background-image: url("SOYEZ.png");
+    background-repeat:repeat;
+background-size: 100%;
+}
+
+.tab
+{
+    background-color: black;
+    margin-left: 30%;
+    width: 150%;
+    margin-top: 30%;
+    animation: my-animation 2s ease-in; 
+}
+
+@keyframes my-animation
+{
+    0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+}
+
+.leg
+{
+    border-style: double ;
+    background-color: yellow;
+    color: black;
+}
+
+.liste
+{
+    font-weight: bold;
+    font: optional;
+}
+
+.inscri
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+    font-weight: bold;
+    background-color: black;
+    font-size: larger;
+}
+
+.in
+{
+    font-weight: bold;
+    background-color: yellow;
+    color: black;
+}
+
+input:hover
+{
+    background-color: yellow;
+}
+
+.fb
+{
+    border: none;
+}
+
+.instagram
+{
+    width: 3%;  
+    margin-left: 4%;
+    animation-name: bouger; 
+    animation-duration: 1s; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
+}
+
+.maps
+{
+    width: 3%;
+    animation-name: bouger; 
+    animation-duration: 1s; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
+}
+
+.gym
+{
+    margin-top: 18%;
+    margin-left: 25%;
+    animation: my-animation 2s ease-in; 
+}
+
+@keyframes bouger {
+    from {
+      transform: translateX(0); 
+    }
+    to {
+      transform: translateX(10px); 
+    }
+  }

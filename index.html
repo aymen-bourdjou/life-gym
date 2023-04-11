@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Acceuil | Life Gym</title>
+</head>
+<body>
+
+    
+    <fieldset class="bordure">
+    <img class="imgd" id="logo" src="images.jpg" width="80px"> 
+    <a class="deco" href="horraireTarif.html">Tarifs</a>
+    <a class="deco"  href="horraireTarif.html">Horaires</a>
+    <label for="cmpl" class="deco">NOS COMPLEMENT</label>
+    <select name="complement" id="cmpl" onchange="redirectToPage(this)">
+      <option value="1"></option>
+      <option value="whey.html">Whey</option>
+      <option value="gainer.html">Gainer</option>
+      <option value="creatine.html">Créatine</option>
+      <option value="bcaa.html">Bcaa</option>
+      <option value="glutamine.html">Glutamine</option>
+      <option value="multivitamin.html">Multivitamin</option>
+    </select>
+    <script>
+      function redirectToPage(selectElement) {
+        var selectedValue = selectElement.options[selectElement.selectedIndex].value;
+        if (selectedValue !== '') {
+          window.location.href = selectedValue;
+        }
+      }
+      </script>
+    <a href="inscription.html"><button class="bt">Inscription</button></a>
+</fieldset> 
+
+    <div class="acceuil">
+        <img class="imgd" id="Im-entrer" src="Life Gym.png" name="image1" onmouseover="changer('image1','311501822_4041601759297180_7528888298180473977_n.webp')"
+        onmouseout="changer('image1','Life Gym.png')" width="400">
+        <script>
+          function changer(image1,chemin)
+{
+    document.images[image1].src=chemin;
+}
+        </script>
+        <h1 class="M-entrer" id="B-entrer">Bienvenue chez Life Gym</h1>
+    </div>
+
+        <script src="even.js"> </script>
+
+       
+
+        
+<div class="champ">
+       <p>
+        <ul class="ul1">
+         <strong>
+            <li>lieu : Baba Hssen</li>
+            <li>Contact : 0558440337 </li>
+            <li>6/7j</li>
+         </strong>
+        </ul>
+    </p>  
+
+    <div class="reseaux">
+      <a href="https://www.google.com/maps/dir/BEN'S MARKET, Baba Hassen" target="_blank">
+        <img class="maps" src="2642502.png" alt="Itinéraire sur Google Maps">
+      </a>
+      <a href="https://www.instagram.com/life.gym.bbh" target="_blank">
+        <img class="instagram" src="https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png" alt="Instagram">
+      </a>
+    </div>
+    
+    </div>
+  
+    
+    
+</body>
+</html>
